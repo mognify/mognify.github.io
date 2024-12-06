@@ -8,7 +8,7 @@ tags: [health, vessel, food]
 pin: true
 #image: /assets/media/images/ideal-weight-results.png
 ---
-First thing to get out of the way: when people talk about Calories, what they're referring to are KCalories. This is a nitpit. I'm just going to call it calories.
+First thing to get out of the way: when people talk about Calories, what they're referring to are KCalories. This is a nitpick. I'm just going to call it calories.
 
 ![Desktop View](/assets/media/images/ideal-weight-results.png){: width="972" height="589" }
 
