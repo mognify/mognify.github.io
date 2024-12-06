@@ -5,7 +5,7 @@ date: 2024-12-06 04:32 -0600
 description: Nothing
 categories: [General, Announcements]
 tags: [note to self]
-pin: true
+pin: false
 ---
 Writing these posts using the information outlined in jekyll-compose
 <https://github.com/jekyll/jekyll-compose>
