@@ -5,10 +5,12 @@ date: 2024-12-06 04:46 -0600
 description: Nothing
 categories: [Vessel, Food]
 tags: [health, vessel, food]
-pin: true
+pin: false
 #image: /assets/media/images/ideal-weight-results.png
 ---
 First thing to get out of the way: when people talk about Calories, what they're referring to are KCalories. This is a nitpick. I'm just going to call it calories.
+
+## Ideal Weight
 
 ![Desktop View](/assets/media/images/ideal-weight-results.png){: width="972" height="589" }
 
@@ -18,6 +20,8 @@ You can find out this information using the following tool:
 
 ![Desktop View](/assets/media/images/macro-input.png){: width="500" height="500"}
 
+
+## Caloric Requirements
 
 After you know how much you 'should' weigh (estimate),
 then you can find how much you should `eat per day` using this tool:
@@ -31,6 +35,8 @@ For `Goal` choose "`Maintain weight`"
 ![Desktop View](/assets/media/images/macro-results.png){: width="500" height="500"}
 
 In my example, you can see for `Food Energy` my target daily caloric intake is about 2225.
+
+## Caloric Expenditures
 
 Remember:
 - 1g Fat = 9 calories

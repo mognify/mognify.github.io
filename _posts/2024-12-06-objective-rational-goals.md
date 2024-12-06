@@ -35,7 +35,7 @@ For a father: holding the pregnant mother or all the necessary belongings.``
 
 ### Nutrition
 
-
+1. [Nutrition]({% post_url 2024-12-06-nutrition %})
 
 ### Fitness
 
