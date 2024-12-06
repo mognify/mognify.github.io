@@ -3,10 +3,9 @@ layout: post
 title: Objective, Rational Goals
 date: 2024-12-06 09:15 -0600
 description: Unavoidable constant obligations of life
-categories: [General]
+categories: [General, Eihwaz]
 tags: [health, vessel, food, space, time, resources, money]
 pin: true
-#stretch_link: 2024-12-06-stretching.md
 ---
 ```
 We are born. We grow to adults. We reproduce. We die.
@@ -28,18 +27,12 @@ For a father: holding the pregnant mother all the necessary belongings.``
 
 This is why consistent exercise throughout your life is necessary.
 
-### Stretching
-Start off with stretching, because otherwise you'll cramp up or tear something. Loosens the muscles, instead of having them tight while you're stretching and bending them.
-
-[Stretching guide]({% post_url 2024-12-06-stretching %})
-
-### Bodyweight exercises
-Then move into bodyweight exercises
-- Level 1: squat jump, walk
-- Level 2: Pushups, wall sits, situps, walk
-- Level 3: ...
-
-The move into weighted exercises
+### Nutrition
 
 
-### You need to eat enough for your muscles to recover and grow from exertion.
+
+### Fitness
+
+1. [Stretching]({% post_url 2024-12-06-stretching %})
+2. [Bodyweight exercises]({% post_url 2024-12-06-bodyweight-exercises %})
+3. [Weighted exercises]({% post_url 2024-12-06-weighted-exercises %})

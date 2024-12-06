@@ -1,15 +1,17 @@
 ---
 layout: post
-title: Dialogue Removal
+title: Mp4 Dialogue Removal
 date: 2024-12-06 07:13 -0600
 description: Nothing
 categories: [Software, Tools]
 tags: [tool, video, software]
 pin: false
 ---
+```
 i want a python script that i can feed an mp4 movie into and have it cut out any parts with detected dialogue
 
 so basically it would need to identify where speech is recognized, timestamp it, and feed it into an mp4 cutter
+```
 
 The purpose for this is because some movies have cringe dialogue but great non-dialogue parts, and other videos have great dialogue but cringe non-dialogue parts.
 
@@ -21,7 +23,9 @@ I want a series of scripts, and they must be independent of the internet, i.e. t
 2. Feed mp4 into script and timestamp ranges (json) and separate the video into 2 folders of the included clips and excluded clips
 3. Compile multiple mp4 files into a single mp4 file (gluing multiple videos together)
 
-Code for 1: extract-speech-timestamps.py
+### Code for 1: extract-speech-timestamps.py
+
+Prerequisite: [Vosk model downloaded](<https://alphacephei.com/vosk/models>)
 ```python
 import json
 import os
@@ -58,7 +62,7 @@ def extract_speech_timestamps(mp4_file, model_path="vosk-model"):
     return timestamps_json
 ```
 
-Code for 2: split-vid-by-timestamps.py
+### Code for 2: split-vid-by-timestamps.py
 ```python
 import os
 import json
@@ -97,7 +101,7 @@ def split_video_non_dialogue(mp4_file, timestamps_json, output_folder):
     return non_dialogue_clips
 ```
 
-Code for 3: combine-multiple-mp4s.py
+### Code for 3: combine-multiple-mp4s.py
 ```python
 import os
 import subprocess
@@ -113,7 +117,7 @@ def concatenate_videos(mp4_files, output_file):
     os.remove("file_list.txt")
 ```
 
-Master script (calls the others): remove-dialogue.py
+### Master script (calls the others): remove-dialogue.py
 ```python
 from scripts.extract_speech_timestamps import extract_speech_timestamps
 from scripts.split_video import split_video_non_dialogue
@@ -140,4 +144,4 @@ if __name__ == "__main__":
 ```
 
 Example result:
-{% include embed/youtube.html id='Balreaj8Yqs' %}
+{% include embed/youtube.html id='qqeRfleqiYc' %}
