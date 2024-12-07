@@ -25,3 +25,8 @@ package-lock.json
 # Misc
 _sass/vendors
 assets/js/dist
+
+# Personal pages
+_posts/2024-12-06-hygiene.md
+_posts/2024-12-06-mantras.md
+_posts/2024-12-06-cult.md
