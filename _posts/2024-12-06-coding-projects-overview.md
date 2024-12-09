@@ -91,3 +91,14 @@ For my desktop: just go through my clipboard history and queue up downloading al
 They become a video at the end of the month that i can then share with her
 
 ## LLM-generated commit description
+
+## LLM-generated blog tags
+- the state of the post (public/hidden)
+- the topic of the post (identifying topics of discussion)
+
+
+## Markdown-enabled Obsidian notes (notes in general)
+
+## Streamlined way to add/modify posts
+
+## OCR MTG card price checker
