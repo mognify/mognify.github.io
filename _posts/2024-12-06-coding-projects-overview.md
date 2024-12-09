@@ -8,6 +8,10 @@ tags: [tool, video, software]
 pin: true
 ---
 
+<h1>This site</h1>
+Tags = "Home"
+Home = "Feed"
+
 - [Movie Dialogue Removal]({% post_url 2024-12-06-dialogue-removal %})
 - Mass download all personal instagram reels
 
@@ -53,3 +57,35 @@ then suggests and offers to perform
 	- Keyboard control groups with different programs instead of restricted to just the same program type
 		- Windows key + 1 should minimize all other applications and bring up a set of windows, all laid out a certain way
 		- pre-specified window dimensions, 
+
+---
+
+## Custom Windows File Explorer
+- File system contents fed into GUI that displays them according to jekyll/.md formatting
+
+## Command Generator
+- "When I say 'I like this', do the following"
+	- then perform a series of clicks/keystrokes (pc/phone)
+
+## Playlist creator
+- Get all the videos in a directory
+	- Play them one at a time
+	- For each video, if i say "yes", add it to the playlist
+	- If i say "no", skip it and dont play it in this session again
+
+## Browser Redirect Rule
+- Twitter main page should redirect to your profile
+- Instagram main page should redirect to your profile
+
+## Clipboard Sidepane GUI
+- on clipboard change, if it contains text:
+	- create text file with the contents of the updated clipboard
+- another script watches for new text files in that folder
+	- when it detects one, then it updates the GUI sidepane with it
+	- you can right-click on these items and if it's e.g. a youtube, instagram, tiktok link then there's a download option
+
+## Instagram Reel Download -> Reel Movie
+Another instagram account of mine that I can send reels to and have it download onto my PC
+So I'm not spamming Borpi with them from my phone
+For my desktop: just go through my clipboard history and queue up downloading all instagram reels found
+They become a video at the end of the month that i can then share with her
