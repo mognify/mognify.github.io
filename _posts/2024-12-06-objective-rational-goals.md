@@ -25,7 +25,9 @@ When we are adults, we can plan and prepare the manner of our death.
 
 ### Nutrition
 
+{% comment %}
 1. [Nutrition]({% post_url 2024-12-06-nutrition %})
+{% endcomment %}
 
 ### Fitness
 Focusing on your vessel first, as without this you cannot do anything
@@ -39,6 +41,8 @@ Focusing on your vessel first, as without this you cannot do anything
 For a mother: in her belly and in her arms.
 For a father: holding the pregnant mother or all the necessary belongings.``
 
+{% comment %}
 1. [Stretching]({% post_url 2024-12-06-stretching %})
 2. [Bodyweight exercises]({% post_url 2024-12-06-bodyweight-exercises %})
 3. [Weighted exercises]({% post_url 2024-12-06-weighted-exercises %})
+{% endcomment %}
