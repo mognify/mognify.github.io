@@ -102,3 +102,22 @@ They become a video at the end of the month that i can then share with her
 ## Streamlined way to add/modify posts
 
 ## OCR MTG card price checker
+
+## Android clipboard auto-export to PC
+
+## Computer usage reminder
+- every 20 minutes:
+	- Windows + D is pressed by bot
+	- A voice tells you to get up and look around; enjoy the scenery
+		- And the voice says an excerpt from a useful book related to your overall goals, but unrelated to the current task at hand
+
+## Android clipboard export to PC
+
+## Discord bot channel
+- Whenever an instagram/youtube/twitter link is posted:
+	- If the post has an image/video, then extract that and repost it in a separate read-only channel
+	- Then delete the image if an image/video was found
+
+## Discord server JSON export
+- Every moon cycle, export as much information about the content in a channel as possible into a JSON file
+	- Then clear the channel and post the JSON file in another read-only channel
