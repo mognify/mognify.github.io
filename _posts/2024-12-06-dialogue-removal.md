@@ -5,7 +5,7 @@ date: 2024-12-06 07:13 -0600
 description: Nothing
 categories: [Software, Tools]
 tags: [tool, video, software]
-pin: false
+pin: true
 ---
 ```
 i want a python script that i can feed an mp4 movie into and have it cut out any parts with detected dialogue

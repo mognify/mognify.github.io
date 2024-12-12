@@ -5,7 +5,7 @@ date: 2024-12-10 12:38 -0600
 description: Matching employers with applicants, and vice versa.
 categories: [Software, Tools]
 tags: [tool, employment, matchmaking, DAO, software]
-pin: true
+pin: false
 ---
 Applicants are honing their skills and talents to meet the needs of positions they're targeting. The application process shouldn't be a trial in itself. That's what the interview is for. 
 
