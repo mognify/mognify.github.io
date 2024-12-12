@@ -5,7 +5,7 @@ date: 2024-12-06 04:32 -0600
 description: Nothing
 categories: [General, Announcements]
 tags: [note to self]
-pin: false
+pin: true
 ---
 
 ![Desktop View](/assets/media/images/magician.jpeg){: width="333 "height="333" }
@@ -18,3 +18,8 @@ Formatting these posts using the informatino outlined in chirpy help doc
 
 Useful for featured images:
 <https://www.youtube.com/watch?v=6oKO-7gsM4s>
+
+Project priorities:
+1. Schedule (based on astronomical object altitude)
+2. Nutrition + Groceries
+3. Passive orienting/focus utilities
