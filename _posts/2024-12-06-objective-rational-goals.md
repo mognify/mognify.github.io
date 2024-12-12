@@ -18,6 +18,7 @@ For our birth and our development, we are at the mercy of others.
 Once we become adults, we can do better for our descendants.
 When we are adults, we can plan and prepare the manner of our death.
 ```
-1. [Nutrition]({% post_url 2024-12-06-nutrition %})
-2. [Groceries]({% post_url 2024-12-06-groceries %})
-3. [Fitness]({% post_url 2024-12-06-fitness %})
+1. [Employment]({% post_url 2024-12-11-jobs %})
+2. [Nutrition]({% post_url 2024-12-06-nutrition %})
+3. [Groceries]({% post_url 2024-12-06-groceries %})
+4. [Fitness]({% post_url 2024-12-06-fitness %})
