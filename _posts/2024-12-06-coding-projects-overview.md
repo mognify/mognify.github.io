@@ -12,6 +12,9 @@ pin: true
 Tags = "Home"
 Home = "Feed"
 
+"Hidden" category pages won't show up on website
+unless the user authenticates into vps
+
 - [Movie Dialogue Removal]({% post_url 2024-12-06-dialogue-removal %})
 - Mass download all personal instagram reels
 
@@ -121,3 +124,11 @@ They become a video at the end of the month that i can then share with her
 ## Discord server JSON export
 - Every moon cycle, export as much information about the content in a channel as possible into a JSON file
 	- Then clear the channel and post the JSON file in another read-only channel
+
+## Astronomical Object Colongitude-Based Schedule/Alarms
+- Track the colongitude of the sun and moon
+- e.g. when the sun is between -10 and 5 degrees colongitude, then it's the sunrise that must be viewed
+- When the moon is between 6 and 15, then it's the moon's gold/silver transition that must be viewed
+
+## Local Voice Synthesis
+- Feed it mp3 voice recordings of me monologuing

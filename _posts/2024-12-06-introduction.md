@@ -7,6 +7,9 @@ categories: [General, Announcements]
 tags: [note to self]
 pin: false
 ---
+
+![Desktop View](/assets/media/images/magician.jpeg){: width="333 "height="333" }
+
 Writing these posts using the information outlined in jekyll-compose
 <https://github.com/jekyll/jekyll-compose>
 
