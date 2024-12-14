@@ -9,11 +9,12 @@ pin: true
 ---
 
 <h1>This site</h1>
-Tags = "Home"
-Home = "Feed"
+- ~~Tags = "Home"~~
+- ~~Home = "Feed"~~
 
-"Hidden" category pages won't show up on website
-unless the user authenticates into vps
+- "Hidden" category pages won't show up on website
+	- unless the user authenticates into vps
+
 
 - [Movie Dialogue Removal]({% post_url 2024-12-06-dialogue-removal %})
 - Mass download all personal instagram reels
@@ -132,3 +133,42 @@ They become a video at the end of the month that i can then share with her
 
 ## Local Voice Synthesis
 - Feed it mp3 voice recordings of me monologuing
+
+## Discord Gallery Bot
+- v1
+python discord bot code example:
+1. The bot will be invited to a guild by a user
+2. The bot will have access to see all the messages and delete all the messages and create a new channel
+
+the bot will have a slash command (/repost)
+where the command is posted in a specific channel
+
+what the command does is:
+within the channel where the command was run:
+parse all the messages in the channel and extract the text of each post into a json file on the local machine
+when it's finished parsing through all the messages in the channel, then it uploads the json file to the channel
+
+it needs to retain the 
+
+- v2
+python discord bot code example:
+it will have all Intents
+
+on initialization:
+- for each server the bot is in:
+	- it checks if a channel exists named "atrium"... if it doesn't exist, create it
+	- if can't create it and it doesnt exist, then skip the guild for everything else further during this session
+
+whenever a user sends a message that contains a youtube, instagram, twitter, or tiktok link:
+	- download the video/images from that link and repost them in "atrium" channel
+	- also create a thread on that triggering message and repost the image/video contents there as well
+
+whenever a user sends a message that contains a video/image:
+	- repost that image/video in "atrium" channel
+
+if the bot crashes, it needs to automatically restart
+
+all the downloaded media will be stored locally in this folder: 
+- F:\downloads_by_month\2024-12
+	- "2024-12" only applied if it was downloaded in december 2024
+	- If it's e.g. January 2025, then the contents would be saved in F:\downloads_by_month\2025-01
