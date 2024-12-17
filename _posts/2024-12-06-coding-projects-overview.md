@@ -126,11 +126,6 @@ They become a video at the end of the month that i can then share with her
 - Every moon cycle, export as much information about the content in a channel as possible into a JSON file
 	- Then clear the channel and post the JSON file in another read-only channel
 
-## Astronomical Object Colongitude-Based Schedule/Alarms
-- Track the colongitude of the sun and moon
-- e.g. when the sun is between -10 and 5 degrees colongitude, then it's the sunrise that must be viewed
-- When the moon is between 6 and 15, then it's the moon's gold/silver transition that must be viewed
-
 ## Local Voice Synthesis
 - Feed it mp3 voice recordings of me monologuing
 
@@ -172,3 +167,28 @@ all the downloaded media will be stored locally in this folder:
 - F:\downloads_by_month\2024-12
 	- "2024-12" only applied if it was downloaded in december 2024
 	- If it's e.g. January 2025, then the contents would be saved in F:\downloads_by_month\2025-01
+
+## Discord targetted channel instagram link media extraction
+python discord bot code example:
+prereq: the bot will have all intents
+when the bot is DM'd, check if the message they were sent contains a channel ID (e.g. "990039368376934461")
+if it does, then check all the guilds the bot is in for a channel with ID
+
+if there is a guild like that, then check all the messages in that channel
+for each message that does not contain a thread, but does contain an instagram link:
+create a thread, and download the video/images from that instagram link and write "saved" in the thread. Store them locally at this file directory as well: "F:\downloads_by_month\MMMM-DD" where MMMM-DD is e.g. 2024-12 since this is december 2024, but next month is jan 2025 so the folder name then would be 2024-01
+also maintain a local sqlite database of all the messages found and whether or not they had a thread and if they had an instagram link (of course once a thread is created then it's marked true, as in it did have a thread)
+i also need it so that if the bot encounters any errors, especially in downloading the media, then it will make a note of that and be able to return to that particular instagram download later... if it encounters an instagram error like this then it should wait a while before trying again, so as not to overload the instagram API. It should go from most recent message to least recent of course
+the name of the downloaded folder should contain as much information about the video source as possible, specifically: the username of the instagram account that posted the video and the date the video was uploaded, as well as the url ID of the video maybe (the first two are mandatory, this third one is optional)... this information and more should also be stored in the sqlite database related to this video information
+
+## Astronomical Object Colongitude-Based Schedule/Alarms
+- Track the colongitude of the sun and moon
+- e.g. when the sun is between -10 and 5 degrees colongitude, then it's the sunrise that must be viewed
+- When the moon is between 6 and 15, then it's the moon's gold/silver transition that must be viewed
+## Astronomical Horizon-ALtitude-Based Triggers
+python code example:
+tells me, based on my location (first-time running i need to enter my location either by street address or by coordinates, and then in the future it recalls what i put down (auto-fills the text field with previous input) and allows me to update it each time i run it)
+
+the end-goal of this is to have it tell me, based on my location, what time the sun or moon will be at certain degree altitudes
+so like i want to know when the moon will be between 5 and 15 degrees altitude (i want to be able to make it run a command prompt command when this occurs, whether it just rose to 5 degrees altitude or if it set to 15 degrees altitude
+and for the sun i want to know when the sun enters -10 degrees altitude while rising or enters 5 degrees altitude while setting

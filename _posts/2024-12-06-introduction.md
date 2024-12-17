@@ -24,3 +24,4 @@ Project priorities:
 2. Nutrition + Groceries
 3. Passive orienting/focus utilities
 
+https://youtu.be/4n3fkTq_p0o
