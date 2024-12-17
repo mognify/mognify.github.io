@@ -25,3 +25,6 @@ Project priorities:
 3. Passive orienting/focus utilities
 
 https://youtu.be/4n3fkTq_p0o
+
+PLANNED SITE CONSTRUCTION:
+- New sidebar page: table of contents. More organized, more in my control.

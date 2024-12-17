@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 
-date: 
+title: Self-sustaining Abode; Home Independence
+date: 2024-12-11 20:39 -0600
 description: Nothing
 categories:
   - Uncategorized

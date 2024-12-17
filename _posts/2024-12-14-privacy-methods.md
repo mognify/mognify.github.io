@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 
-date: 
+title: Privacy Methods
+date: 2024-12-14 20:39 -0600
 description: Nothing
 categories:
   - Uncategorized
