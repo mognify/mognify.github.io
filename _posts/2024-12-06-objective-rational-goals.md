@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: Objective, Rational Goals
 date: 2024-12-06 09:15 -0600

@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: Self-sustaining Abode; Home Independence
 date: 2024-12-11 20:39 -0600

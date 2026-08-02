@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: Technical Projects Overview
 date: 2024-12-10 10:56 -0600

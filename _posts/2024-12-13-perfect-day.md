@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: Perfect Day
 date: 2024-12-13 10:00 -0600
