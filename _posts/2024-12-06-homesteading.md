@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: Homesteading
 date: 2024-12-06 05:22 -0600

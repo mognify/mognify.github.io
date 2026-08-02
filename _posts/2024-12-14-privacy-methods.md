@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: Privacy Methods
 date: 2024-12-14 20:39 -0600

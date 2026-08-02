@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: Coding Projects Overview
 date: 2024-12-06 13:49 -0600
